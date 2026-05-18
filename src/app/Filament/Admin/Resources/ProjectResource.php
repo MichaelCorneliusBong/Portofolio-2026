@@ -33,17 +33,32 @@ class ProjectResource extends Resource
                     ->required()
                     ->maxLength(65535)
                     ->columnSpanFull(),
+                Forms\Components\Textarea::make('problem_analysis')
+                    ->maxLength(65535)
+                    ->columnSpanFull(),
+                Forms\Components\Textarea::make('system_requirements')
+                    ->maxLength(65535)
+                    ->columnSpanFull(),
+                Forms\Components\Textarea::make('tech_stack')
+                    ->maxLength(65535)
+                    ->columnSpanFull(),
+                Forms\Components\FileUpload::make('diagram_usecase')
+                    ->image()
+                    ->directory('diagrams'),
+                Forms\Components\FileUpload::make('diagram_flowchart')
+                    ->image()
+                    ->directory('diagrams'),
+                Forms\Components\FileUpload::make('diagram_erd')
+                    ->image()
+                    ->directory('diagrams'),
                 Forms\Components\FileUpload::make('thumbnail')
                     ->image()
-                    ->directory('projects/thumbnails'),
+                    ->directory('projects'),
                 Forms\Components\TextInput::make('github_url')
                     ->url()
                     ->maxLength(255),
                 Forms\Components\Toggle::make('is_final_project')
                     ->required(),
-                Forms\Components\FileUpload::make('pdf_report')
-                    ->directory('projects/reports')
-                    ->acceptedFileTypes(['application/pdf']),
                 Forms\Components\TextInput::make('progress_status')
                     ->maxLength(255),
                 Forms\Components\Toggle::make('is_published')

@@ -29,7 +29,7 @@ class ProfileResource extends Resource
                 Forms\Components\TextInput::make('title')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\Textarea::make('description')
+                Forms\Components\Textarea::make('biography')
                     ->required()
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('avatar')
