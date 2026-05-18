@@ -26,7 +26,7 @@ class ProjectSeeder extends Seeder
             'thumbnail' => 'projects/genesysmeta.png',
             'github_url' => 'https://github.com/MichaelCorneliusBong/Genesys-2026',
             'is_final_project' => false,
-            'is_published' => false,
+            'is_published' => true,
             'progress_status' => 'In Progress',
         ]);
         
