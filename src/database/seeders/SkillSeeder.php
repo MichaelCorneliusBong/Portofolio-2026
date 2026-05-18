@@ -14,15 +14,15 @@ class SkillSeeder extends Seeder
     public function run(): void
     {
         $skills = [
-            ['name' => 'Laravel', 'category' => 'Backend', 'icon' => null],
-            ['name' => 'Python', 'category' => 'Backend', 'icon' => null],
-            ['name' => 'Java', 'category' => 'Backend', 'icon' => null],
-            ['name' => 'C/C++', 'category' => 'Backend', 'icon' => null],
-            ['name' => 'PHP', 'category' => 'Backend', 'icon' => null],
-            ['name' => 'HTML', 'category' => 'Frontend', 'icon' => null],
-            ['name' => 'CSS', 'category' => 'Frontend', 'icon' => null],
-            ['name' => 'MySQL', 'category' => 'Database', 'icon' => null],
-            ['name' => 'PostgreSQL', 'category' => 'Database', 'icon' => null],
+            ['name' => 'Laravel', 'category' => 'Backend', 'icon' => 'profile/laravel.png'],
+            ['name' => 'Python', 'category' => 'Backend', 'icon' => 'profile/python.png'],
+            ['name' => 'C/C++', 'category' => 'Backend', 'icon' => 'profile/c++.png'],
+            ['name' => 'PHP', 'category' => 'Backend', 'icon' => 'profile/php.png'],
+            ['name' => 'Java', 'category' => 'Backend', 'icon' => 'profile/java.png'],
+            ['name' => 'HTML', 'category' => 'Frontend', 'icon' => 'profile/html.png'],
+            ['name' => 'CSS', 'category' => 'Frontend', 'icon' => 'profile/css.png'],
+            ['name' => 'MySQL', 'category' => 'Database', 'icon' => 'profile/mysql.png'],
+            ['name' => 'PostgreSQL', 'category' => 'Database', 'icon' => 'profile/postgresql.png'],
         ];
 
         foreach ($skills as $skill) {
