@@ -26,6 +26,7 @@ class ProjectSeeder extends Seeder
             'thumbnail' => 'projects/genesysmeta.png',
             'github_url' => 'https://github.com/MichaelCorneliusBong/Genesys-2026',
             'is_final_project' => false,
+            'is_published' => false,
             'progress_status' => 'In Progress',
         ]);
         
@@ -36,6 +37,7 @@ class ProjectSeeder extends Seeder
             'thumbnail' => 'projects/housemanagement.png',
             'github_url' => 'https://github.com/MichaelCorneliusBong/SistemManajemenPembelianRumah',
             'is_final_project' => true,
+            'is_published' => true,
             'progress_status' => 'Completed',
             
         ]);
@@ -47,6 +49,7 @@ class ProjectSeeder extends Seeder
             'thumbnail' => 'projects/shoppinglist.png',
             'github_url' => 'https://github.com/MichaelCorneliusBong/UAS-PBO',
             'is_final_project' => true,
+            'is_published' => true,
             'progress_status' => 'Completed',
         ]);
 

@@ -5,7 +5,7 @@
             <div class="text-center mb-12 pt-8 md:pt-12">
                 <h1 class="text-3xl md:text-4xl font-bold gradient-text mb-3">Contact Me</h1>
                 <p class="text-white/50 text-sm max-w-md mx-auto">
-                    Punya pertanyaan seputar Project saya? Bisa hubungi saya disini
+                    Punya pertanyaan seputar Project saya? Bisa hubungi saya disini.
                 </p>
             </div>
 

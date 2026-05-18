@@ -25,7 +25,6 @@ return new class extends Migration
             $table->string('thumbnail')->nullable();
             $table->string('github_url')->nullable();
             $table->boolean('is_final_project')->default(false);
-            $table->string('pdf_report')->nullable();
             $table->string('progress_status')->nullable();      
             $table->boolean('is_published')->default(true);      
             $table->timestamps();
